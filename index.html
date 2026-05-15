@@ -1,29 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>For Halaaaa 💖</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="A romantic interactive surprise for Halaaaa."
+    />
+    <title>For Halaaaa 💖</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
 
-<body>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  </head>
 
-  <div class="container">
+  <body>
+    <audio id="music" loop>
+      <source src="music.mp3" type="audio/mp3" />
+    </audio>
 
     <h1>Halaaaa 💖</h1>
-    <h2>Would you date me?</h2>
+    <h2>Will you be my forever?</h2>
+    <p class="subtitle">
+      Try to catch the No button if you can — it will never land on Yes.
+    </p>
 
-    <div class="buttons">
+    <div class="box">
       <button id="yesBtn">Yes 💖</button>
       <button id="noBtn">No 💔</button>
     </div>
 
     <p id="message"></p>
 
-  </div>
-
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
