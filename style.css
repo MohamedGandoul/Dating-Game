@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0f172a;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #ff4d6d;
+}
+
+h2 {
+  margin-bottom: 40px;
+}
+
+.buttons {
+  position: relative;
+  height: 150px;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* YES button */
+#yesBtn {
+  background: #22c55e;
+  color: white;
+  margin-right: 20px;
+}
+
+/* NO button */
+#noBtn {
+  background: #ef4444;
+  color: white;
+  position: absolute;
+}
+
+/* message */
+#message {
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+/* 💖 floating hearts animation */
+.heart {
+  position: absolute;
+  color: pink;
+  animation: float 4s linear forwards;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(-600px); opacity: 0; }
+}
+
+/* 📱 mobile */
+@media (max-width: 600px) {
+  h1 { font-size: 2rem; }
+}
