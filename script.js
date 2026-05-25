@@ -61,7 +61,7 @@ noBtn.addEventListener("click", moveNo);
 yesBtn.addEventListener("click", () => {
   document.body.style.background =
     "radial-gradient(circle at top, #ffe5f0, #ff8ab3 40%, #1b1f3a 100%)";
-  message.innerHTML = "💖 Halaaaa, you made my heart dance! , LOVE YOU SO MUCHHHHHH";
+  message.innerHTML = "💖 My Loveeeeeeeeaa, you made my heart dance! , LOVE YOU SO MUCHHHHHH";
 
   if (music.paused) {
     music.play().catch(() => {
